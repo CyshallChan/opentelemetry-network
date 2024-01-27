@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
   # disable default vagrant share.
   config.vm.synced_folder '.', '/vagrant', disabled: true
 
-  config.vm.provider "virtualbox" do |vm|
+  config.vm.provider "vmware_fusion" do |vm|
     vm.gui = false
     vm.memory = "16384"
   end

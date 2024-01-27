@@ -115,7 +115,7 @@
       "type": "vagrant",
       "box_name": "{{user `box_name`}}",
       "communicator": "ssh",
-      "provider": "virtualbox",
+      "provider": "vmware_fusion",
       "source_path": "{{user `base_box`}}",
       "output_dir": "{{user `output_dir`}}",
       "add_clean": true,
